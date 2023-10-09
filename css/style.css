@@ -1,0 +1,114 @@
+  /* PARA MUDAR A FONTE DA PÁGINA INTEIRA MEXA AQUI*/
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    
+
+}
+
+h2{
+    /* Essa propiedade permite manipular o tamanho da fonte */
+    font-size: 17px ;
+    /* Essa propiedade é para fonte das letras*/
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-weight: normal ;
+}
+.teste{
+    /* Cor do Olá Mundo 1*/
+    color: red;
+}
+    
+#teste{
+    /* Cor do Olá Mundo 2*/
+    color: green;
+}
+p.paragrafo{
+    /*Cor do Olá Mundo 3*/
+    font-size: 30px;
+}
+
+    /*Esse é meu atributo*/
+[name=paragrafo]{
+    color: blue;
+}
+/*criando atributo para estilizar um local para o usuario escrever um texto, com um botão ao lado*/
+[type=text]{
+    width: 900px;
+}
+[type=button]{
+    background-color: red
+    ;
+}
+
+
+/*Sobre aula de cores e background*/
+div{
+    background-color: #8d4658;
+}
+
+
+/*aula sobre mais background*/
+.bg{
+    width: 100%;
+    height: 400px;
+    background-image: url('../landscape.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: blue;
+}
+/*Aula de dimensões CSS e flexbox*/
+.container{
+    display: flex;
+    
+    flex-wrap: nowrap;
+}
+.d1{
+    width: 50%;
+
+   
+    
+    background-color: blue;
+   
+}
+
+.d2{
+    width: 50px;
+    height: 300px;
+    margin-top: 20px;
+   
+    background-color: red;
+}
+
+.d3{
+    width: 50px;
+    height: 300px;
+    background-color: green;
+}
+
+/*Aula niveis de importâcia do CSS*/
+.teste h2.title{
+    color: blue;
+}
+
+h2{
+    color: green;
+}
+
+h2{
+    color: red;
+}
+
+/*Aula de animações*/
+@keyframes anim1{
+    from{background-color: green;}
+    to{background-color: red;}
+}
+.teste{
+    width: 400px;
+    height: 400px;
+    background-color: green;
+    animation: anim1;
+    animation-duration:7s;
+}
